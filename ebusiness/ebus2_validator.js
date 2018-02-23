@@ -1,4 +1,4 @@
-
+/* global $ */
 function validateDetails(){
     
     var pin;
