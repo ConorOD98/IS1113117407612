@@ -1,5 +1,5 @@
 html{
-background: url(http://4.bp.blogspot.com/-uiriBxnwZl4/UQKaYQAYXHI/AAAAAAAARkQ/h6UhftWb46s/s1600/Lonely+Tree+Paography+Wallpapers+03.jpg) no-repeat center;
+background: url("https://i.pinimg.com/originals/bf/7e/b9/bf7eb978024927fbebf195da226a48d3.jpg") no-repeat center;
  background-size: cover;
 }
 body{ display: inline; 
@@ -12,4 +12,28 @@ h1 {
 p {
     font-family: verdana;
     font-size: 20px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: 	#1E90FF;
+}
+
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 10px 59px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
