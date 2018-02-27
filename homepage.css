@@ -1,5 +1,5 @@
 html{
-background: url("https://i.pinimg.com/originals/bf/7e/b9/bf7eb978024927fbebf195da226a48d3.jpg") no-repeat center;
+background: url("https://i.pinimg.com/originals/bf/7e/b9/bf7eb978024927fbebf195da226a48d3.jpg") no-repeat;
  background-size: cover;
 }
 body{ display: inline; 
@@ -24,6 +24,7 @@ ul{
 
 li{
     float: left;
+    margin-left: 10%;
 }
 
 li a{
