@@ -6,6 +6,7 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+        <link rel="stylesheet" href="ebus.css" type="text/css" />
     
     
     </head>
@@ -18,7 +19,7 @@
          
          <form method="POST" action="Ebus2.php">
              
-             <label for="salesforce">
+             <label for="salesforce" class= "lblsalesforce"> 
                  <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                  Salesforce @ $100
              </label>
@@ -36,8 +37,8 @@
              </label>
              <br/>
              
-             <label for="cloud 9">
-             <input type = "radio" id="cloud 9" name="product" checked onClick ="disablebtnProceed()"/>
+             <label for="cloud9">
+             <input type = "radio" id="cloud9" name="product" checked onClick ="disablebtnProceed()"/>
              cloud 9 @ $200
              </label>
              <br/>
@@ -47,7 +48,19 @@
                  <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
              </label>
              <br/>
-             
+                 
+            <label for="discount" class="lbldiscount">
+              Discount @ 5%  <input type="text" id="discount"  value="0.00" readonly/>
+            
+            </label>
+                
+            <br>
+            
+            <label for="vat" class="lblvat">
+              VAT @ 10% 
+              <input type="text" id="vat"  value="0.00" readonly/>
+            </label>
+                
              <label for="total">
                  Total
                <input type="text" id="total" name="total" value="0.00" readonly/>
@@ -59,7 +72,7 @@
          </form>
          
          <br/>
-         <button onClick="calcSub()">Calculate Cost</button>
+         <button onClick="calcSub()" class= "btncalc">Calculate Cost</button>
          <a role="button" href="Ebus1.php">Clear Choice</a>
          
     </body>
