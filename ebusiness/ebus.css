@@ -1,32 +1,4 @@
-.cal_btn{
-    position: absolute;
-    top: 75%;
-    left: 43%;
-    
-    background-color: #ffff00;
-    border: none;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-    padding: 6px 6px;
-    border-radius: 3px;
-    font-size: 95%;
-}
-
-.cal_btn:hover{
-    cursor: pointer;
-}
-
-.clear_btn{
-    position: absolute;
-    top: 75%;
-    left: 52%;
-    
-    text-decoration: none;
-    color: red;
-    padding: 4px 4px;
-    border: solid 1px red;
-    border-radius: 3px;
-}
+php{ background: url("http://webhomes.com/images/what-we-do/webhomes-what-we-do-cloud-computing.jpg")no-repeat ;
+ background-size: cover; }
 
 
