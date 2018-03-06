@@ -12,11 +12,11 @@ session_start()
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
-          <link rel="stylesheet" href="ebus.css" type="text/css" />
+        >
     </head>
     
     <body>
-        
+             <PHP><head><link rel="stylesheet" href="ebus.css" type="text/css" /></head></PHP>
         <h4>Please enter your payment details.</h4>
         
             <br />

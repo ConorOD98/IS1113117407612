@@ -2,17 +2,14 @@
 <html>
     <head>
         <title>Select Product</title>
-        
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-        <link rel="stylesheet" href="ebus.css" type="text/css" />
-    
-    
+        <link rel="stylesheet" href="ebus.css" type="text/css">
     </head>
    
     <body>
-        
+        <PHP><head><link rel="stylesheet" href="ebus1.css" type="text/css"></head></PHP>
          <h4>Select a Product</h4>
          
          <br/>
@@ -24,6 +21,8 @@
                  Salesforce @ $100
              </label>
              <br/>
+             
+             <h2 class="hi">Hi</h2>
              
              <label for="aws">
                  <input type="radio" id="aws" name="product" checked onClick ="disablebtnProceed()"/>

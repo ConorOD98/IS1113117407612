@@ -1,2 +1,23 @@
-html{ background: url("http://webhomes.com/images/what-we-do/webhomes-what-we-do-cloud-computing.jpg")no-repeat ;
- background-size: cover; }
+#section1{
+    background: url("https://yt3.ggpht.com/a-/AJLlDp1t00t_ImSvCax9n6v2ALCtkzl6sB2t7_B-SA=s900-mo-c-c0xffffffff-rj-k-no")no-repeat center;
+ background-size: cover;
+}
+#section2{
+    background: url("https://l3snh1odsii3hndbd2rovotm-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/cloud9_logo.png")no-repeat center;
+ background-size: cover;
+}
+#section3{
+    background: url("https://www.techfunnel.com/wp-content/uploads/2017/11/What-Is-IaaS.jpg")no-repeat center;
+ background-size: cover;
+}
+#section4{
+    background: url("https://img.purch.com/r/520x520/aHR0cDovL3d3dy50b3B0ZW5yZXZpZXdzLmNvbS9pL3BkcC80OTU4NTBlNjA2YjJiN2EzMDU5NDFhNWFlZjQ4NzI5OC5qcGc=")no-repeat center;
+ background-size: cover;
+}
+
+
+.section{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
