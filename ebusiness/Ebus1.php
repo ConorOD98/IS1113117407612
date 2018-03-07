@@ -6,6 +6,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         <link rel="stylesheet" href="ebus.css" type="text/css">
+    <style>
+        
+        body{
+            text-align:center;
+            
+        }
+    </style>
+    
     </head>
    
     <body>
@@ -20,32 +28,36 @@
                  <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                  Salesforce @ $100
              </label>
+             <br></br>
              <br/>
              
-             <h2 class="hi">Hi</h2>
              
              <label for="aws">
                  <input type="radio" id="aws" name="product" checked onClick ="disablebtnProceed()"/>
                  AWS @ $300
              </label>
+              <br></br>
              <br/>
              
              <label for="gmail">
              <input type = "radio" id="gmail" name="product" checked onClick ="disablebtnProceed()"/>
-             gmail @ $400
+             gmail @ $400 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              </label>
+              <br></br>
              <br/>
              
              <label for="cloud9">
              <input type = "radio" id="cloud9" name="product" checked onClick ="disablebtnProceed()"/>
-             cloud 9 @ $200
+             Cloud 9 @ $200 &nbsp;&nbsp;
              </label>
+              <br></br>
              <br/>
              
              <label for="subtotal">
                  Sub Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                  <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
              </label>
+            
              <br/>
                  
             <label for="discount" class="lbldiscount">

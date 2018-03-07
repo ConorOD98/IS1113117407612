@@ -1,0 +1,19 @@
+.interests_button2{
+    position: fixed;
+    bottom: 200px;
+    right: 8px;
+    z-index: 99;
+    font-size: 18px;
+    border: white;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 40px;
+    border-radius: 0px;
+    text-decoration: none;
+}
+
+.interests_button2:hover{
+    background-color: #009999;
+}

@@ -12,11 +12,19 @@ session_start()
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
-        >
+        
+            <style>
+        
+        body{
+            text-align:center;
+            
+        }
+    </style>
+    
     </head>
     
     <body>
-             <PHP><head><link rel="stylesheet" href="ebus.css" type="text/css" /></head></PHP>
+             <PHP><head><link rel="stylesheet" href="ebus1.css" type="text/css" /></head></PHP>
         <h4>Please enter your payment details.</h4>
         
             <br />
@@ -32,7 +40,7 @@ session_start()
                 <br>
                 
                  <label for="email">
-                     PIN 
+                     Email
                 </label>
                 
                 <input type="email" id="email" name="email" placeholder="Email Address" >

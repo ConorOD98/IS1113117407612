@@ -1,5 +1,5 @@
 *{
-margin:0;
+margin:20;
 }
 html,body{
  height:100%;
@@ -12,7 +12,4 @@ html {
     position:absolute;
 }
 
-.hi{
-    color:red;
-}
 

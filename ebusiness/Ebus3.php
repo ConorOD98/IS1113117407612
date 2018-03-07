@@ -5,10 +5,17 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
+            <style>
         
+        body{
+            text-align:center;
+            
+        }
+    </style>
+    
     </head>
     <body>
-             <PHP><head><link rel="stylesheet" href="ebus.css" type="text/css" /></head></PHP>
+             <PHP><head><link rel="stylesheet" href="ebus1.css" type="text/css" /></head></PHP>
           <?php  
           $_SESSION["name"] = $_POST["name"];
           $_SESSION["email"] = $_POST["email"];
