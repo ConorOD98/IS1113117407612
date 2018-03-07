@@ -21,3 +21,10 @@
     color: black;
     font-size: xx-large;
 }
+
+.homebutton{
+    position: relative;
+    top:40%;
+    left:45%;
+    
+}
