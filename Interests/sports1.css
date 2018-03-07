@@ -1,0 +1,14 @@
+#section1{
+    background: url("https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/14937455_1072090426244779_5235975685968625729_n.jpg?oh=40a1695fb75a00ad4c76bc5f142d1bbb&oe=5B06CAB8")no-repeat center;
+ background-size: cover;
+}
+#section2{
+    background: url("https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/14572211_1775924619288543_6850423836353200395_n.jpg?oh=c829543e2920c91fefa32ade19d32c91&oe=5B407D23")no-repeat center;
+ background-size: cover;
+}
+
+.section{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
