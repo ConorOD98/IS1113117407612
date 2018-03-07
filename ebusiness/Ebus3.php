@@ -41,5 +41,7 @@ session_start();
         // Echo session variables that were set on previous page
         echo "Total: $" . $_SESSION["total"] . ".";
         ?>
+        <br>
+        <h5>Thank you for shopping with The Cloud Company. A confirmation email will be sent to you shortly.</h5>
     </body>
 </html>
