@@ -62,6 +62,7 @@ session_start()
             <br />
             
             <button onClick="validateDetails()"> Validate </button>
+            <a role="button" href="Ebus1.php">Back</a>
         
         
         <?php  

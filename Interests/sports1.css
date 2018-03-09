@@ -15,7 +15,7 @@
  /* styling that effects all home button for interests pages and next button for sports page */
 .interests_button1{
     position: fixed;
-    bottom: 200px;
+    top:90%;
     right: 600px;
     z-index: 99;
     font-size: 18px;
@@ -35,7 +35,7 @@
 
 .interests_button2{
     position: fixed;
-    bottom: 200px;
+    top:90%;
     right: 800px;
     z-index: 99;
     font-size: 18px;

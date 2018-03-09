@@ -12,12 +12,15 @@
             text-align:center;
             
         }
+.solid{border-style: solid;}
+        
     </style>
     
     </head>
    
     <body>
         <PHP><head><link rel="stylesheet" href="ebus1.css" type="text/css"></head></PHP>
+         <p class="solid">
          <h4>Select a Product</h4>
          
          <br/>
@@ -87,6 +90,6 @@
          <br/>
          <button onClick="calcSub()" class= "btncalc">Calculate Cost</button>
          <a role="button" href="Ebus1.php">Clear Choice</a>
-         
+         </p>
     </body>
 </html>

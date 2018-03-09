@@ -1,0 +1,36 @@
+/*Image for first section*/
+#section1{
+    background: url("https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg?x=1200&y=794")no-repeat center;
+ background-size: cover;
+}
+/*Image for second section*/
+#section2{
+    background: url("http://webhomes.com/images/what-we-do/webhomes-what-we-do-cloud-computing.jpg")no-repeat center;
+ background-size: cover;
+}
+/*Font for each section*/
+.section{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+ /* styling that effects all home button for interests pages and next button for sports page */
+.interests_button1{
+    position: fixed;
+    top:90%;
+    right: 600px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.interests_button1:hover{
+    background-color: #474747;
+}
